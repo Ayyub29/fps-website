@@ -1,0 +1,52 @@
+body{
+    background-color: #FF931E;
+}
+
+.card{
+    margin-top:100px;;
+    margin-bottom:auto;
+    background-color: white;
+    padding-left: 65px;
+    padding-top: 55px;
+    padding-right:65px;
+    border-radius: 3%;
+}
+
+.title-card{
+    font: 'Montserrat';
+    font-size:56;
+    font-weight:700;
+    color: #541F78;
+    text-align: center;
+}
+
+.title{
+    color: #541F78;
+    font: bold 'Montserrat';
+    font-weight: 700;
+    font-size:21;
+}
+
+.flex-containers{
+    display:flex;
+    flex-direction: row;
+    margin-top:20px;
+    margin-bottom:30px;
+    justify-content: center;
+    width:90%;
+    margin-left: auto;
+    margin-right: auto;
+    /* padding-left:12px; */
+}
+
+.pemisah-kecil{
+    width:6%;
+}
+
+.logo-explanation{
+    /* width:71%; */
+    height:100%;
+    margin-top:auto;
+    margin-bottom:auto;
+}
+

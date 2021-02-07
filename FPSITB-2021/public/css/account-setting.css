@@ -1,0 +1,128 @@
+body{
+    background-color: #FF931E;
+}
+
+.card{
+    /* min-height:700px; */
+    margin-top:100px;;
+    margin-bottom:auto;
+    background-color: white;
+    padding-bottom:50px;
+}
+
+.card-headers{
+    padding-left:40px;
+    padding-top:30px;
+}
+
+.title-card{
+    font: bold 'Montserrat';
+    font-size:xx-large;
+    font-weight:600;
+}
+
+#black-box {
+    border-radius: 50%;
+    width: 100px;
+    height:100px;
+}
+
+.personal-container{
+    padding-top:10px;
+    display: flex;
+}
+.text-tilte{
+    padding-left:20px;
+    vertical-align: middle;
+}
+
+.nama-paduan-suara{
+    font: 'Monstserrat';
+    font-size:small;
+    color:#343638;
+    font-weight: 500;
+    opacity:0.75;
+    padding-top:20px;
+}
+
+.nama-tim-paduan-suara{
+    font: 'Monstserrat';
+    font-size:xx-large;
+    color:#343638;
+    font-weight: 900;
+    /* opacity:0.75; */
+    margin-top:-20px;
+}
+
+hr{
+    border: 2px solid black; 
+    width: 800px; 
+    align-self:center;
+    opacity:1;  
+}
+
+.title-card{
+    font: bold 'Montserrat';
+    font-size:x-large;
+    font-weight:600;
+}
+
+.text-card{
+    font: bold 'Montserrat';
+    font-size:medium;
+    font-weight:400;
+}
+
+.login-text-card{
+    text-decoration: none;
+    color:black;
+
+}
+
+.card-body{
+    width: 80%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.label-form{
+    font: 'Montserrat';
+    font-size:small;
+    font-weight:400;
+    color:#343638;
+}
+
+.text-line-form{
+    background-color: transparent;
+    /* color: #72ACFF; */
+    outline: none;
+    outline-style: none;
+    outline-offset: 0;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid black 1px;
+    padding: 3px 10px;
+    width: 90%;
+    font-weight: 300;
+    font: 'Montserrat   '
+}
+
+.form-group{
+    padding-bottom:10px;
+}
+
+.submit-button {
+    background-color: #FB4586!important;
+    /*color: black;*/
+    border-radius: 30%;
+    border-color: transparent;
+    border-radius: 60px;
+    padding: 0px 50px;
+    font-size:medium;
+    color: white;
+    right: 50px;
+    height: 25px;
+    position: absolute;
+    font-weight: bold!important;
+}

@@ -1,0 +1,221 @@
+body {
+    background-color: #FF931E;
+}
+
+.card{
+    /* min-height:700px; */
+    margin-top:100px;;
+    margin-bottom:auto;
+    background-color: white;
+    border-radius:2%;
+}
+
+.card-headers{
+    padding-left:40px;
+    padding-top:30px;
+}
+
+.title-card{
+    font: bold 'Montserrat';
+    font-size:xx-large;
+    font-weight:600;
+    padding-bottom:50px;
+}
+
+/*form styles*/
+#msform {
+    position: relative;
+    margin-top: 30px;
+}
+
+#msform fieldset {
+    background: white;
+    -webkit-box-shadow: inset 0 20px 20px -20px rgba(0,0,0,0.8);
+    -moz-box-shadow: inset 0 20px 20px -20px rgba(0,0,0,0.8);
+    box-shadow: inset 0 20px 20px -20px rgba(0,0,0,0.8);
+    padding-left:80px;
+    padding-top:35px;
+    /* box-sizing: border-box; */
+    width: 100%;
+    /* border-top: 1px solid  rgba(0, 0, 0, 0.4); */
+    /*stacking fieldsets above each other*/
+    position: relative; 
+}
+
+/*Hide all except first fieldset*/
+#msform fieldset:not(:first-of-type) {
+    display: none;
+}
+
+.title-sub-card{
+    font: bold 'Montserrat';
+    font-size:x-large;
+    font-weight:600;
+    padding-bottom:30px;
+}
+
+/* inputs */
+.label-form{
+    font: 'Montserrat';
+    font-size:small;
+    font-weight:400;
+    color:#343638;
+}
+
+.label-button {
+    cursor: pointer;
+    font: 'Montserrat';
+    font-size:small;
+    font-weight:400;
+    color:#343638;
+    /* border: 2px solid black; */
+    /* Style as you please, it will become the visible UI component. */
+ }
+ 
+#logo-paduan-suara {
+    opacity: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+.text-line-form{
+    background-color: transparent;
+    /* color: #72ACFF; */
+    outline: none;
+    outline-style: none;
+    outline-offset: 0;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid black 1px;
+    padding: 3px 10px;
+    width: 90%;
+}
+
+.form-group{
+    padding-bottom:10px;
+    width:60%;
+}
+
+/*buttons*/
+#msform .action-button {
+    width: 100px;
+    background: #ee0979;
+    font-weight: bold;
+    color: white;
+    border: 0 none;
+    border-radius: 25px;
+    cursor: pointer;
+    padding: 10px 5px;
+    margin: 10px 5px;
+}
+
+#msform .action-button:hover, #msform .action-button:focus {
+    box-shadow: 0 0 0 2px white, 0 0 0 3px #ee0979;
+}
+
+#msform .action-button-previous {
+    width: 100px;
+    background: #C5C5F1;
+    font-weight: bold;
+    color: white;
+    border: 0 none;
+    border-radius: 25px;
+    cursor: pointer;
+    padding: 10px 5px;
+    margin: 10px 5px;
+}
+
+#msform .action-button-previous:hover, #msform .action-button-previous:focus {
+    box-shadow: 0 0 0 2px white, 0 0 0 3px #C5C5F1;
+}
+
+
+/*progressbar*/
+#progressbar {
+    margin-bottom: 30px;
+    overflow: hidden;
+    /*CSS counters to number the steps*/
+    counter-reset: step;
+    width:100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#progressbar li {
+    list-style-type: none;
+    color: #FF4D4D;
+    text-transform: uppercase;
+    /* font-size: 9px; */
+    width: 20%;
+    float: left;
+    position: relative;
+}
+
+#progressbar li:before {
+    content: counter(step);
+    counter-increment: step;
+    width: 35px;
+    height: 35px;
+    /* line-height: 26px; */
+    display: block;
+    font-size: 12px;
+    text-align:center;
+    /* color: #333; */
+    background: #CBD0D3;
+    border-radius: 25px;
+    margin: 0 auto auto auto;
+    padding-top:3px;
+    color: black;
+    font:'Montserrat';
+    font-size:large;
+    font-weight:1000;
+}
+
+/*progressbar connectors*/
+#progressbar li:after {
+    content: '';
+    width: 70%;
+    height: 2px;
+    background: #CBD0D3;
+    position: absolute;
+    left: -35%;
+    top: 15px;
+}
+
+#progressbar li:first-child:after {
+    /*connector not needed before the first step*/
+    content: none;
+}
+
+/*marking active/completed steps green*/
+/*The number of the step and the connector before it = green*/
+#progressbar li.active:before, #progressbar li.active:after {
+    background: #FF4D4D;
+    color: white;
+    font:'Montserrat';
+    font-size:large;
+    font-weight:1000;
+}
+
+#progressbar li.done:before {
+    background: white;
+    border: 8px solid #FF4D4D;
+    font-size:0px;
+    /* color: white; */
+}
+
+.flex-containers{
+    display:flex;
+    flex-direction: row;
+    margin-top:20px;
+    margin-bottom:30px;
+    justify-content: center;
+    width:90%;
+    margin-left: auto;
+    margin-right: auto;
+    /* padding-left:12px; */
+}
+
+
+

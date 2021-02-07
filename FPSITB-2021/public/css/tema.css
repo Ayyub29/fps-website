@@ -1,0 +1,41 @@
+body{
+    background-color: #FF931E;
+}
+
+.card{
+    margin-top:100px;;
+    margin-bottom:auto;
+    background-color: white;
+    padding-left: 65px;
+    padding-top: 55px;
+    padding-right:65px;
+    border-radius: 3%;
+}
+
+.title-card{
+    font: 'Montserrat';
+    font-size:56;
+    font-weight:700;
+    color: #541F78;
+    text-align: center;
+}
+
+.title{
+    color: #541F78;
+    font: bold 'Montserrat';
+    font-weight: 700;
+    font-size:21;
+}
+
+.desc-title{
+    font: 'Montserrat';
+    font-size:24;
+    font-weight:400;
+    color: #541F78;
+    text-align: center;
+    letter-spacing: 0.3px;
+    padding-top:14px;
+    padding-bottom:16px;
+    margin-left: 100px;
+    margin-right:100px;
+}

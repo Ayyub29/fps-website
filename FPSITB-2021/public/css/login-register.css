@@ -1,0 +1,81 @@
+body{
+    /* margin-top: 100px; */
+    background-image: url('../img/bg-login-register.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 1400px 625px;
+    height: 625px;
+    /* width: 1300px; */
+    /* width: auto; */
+}
+
+.card{
+    border-radius: 4%;
+}
+.card-headers{
+    padding-left:40px;
+    padding-top:30px;
+}
+
+.title-card{
+    font: bold 'Montserrat';
+    font-size:x-large;
+    font-weight:600;
+}
+
+.text-card{
+    font: bold 'Montserrat';
+    font-size:medium;
+    font-weight:400;
+}
+
+.login-text-card{
+    text-decoration: none;
+    color:black;
+
+}
+
+.card-body{
+    padding-left:40px;
+    /* padding-top:30px; */
+}
+
+.label-form{
+    font: 'Montserrat';
+    font-size:small;
+    font-weight:400;
+    color:#343638;
+}
+
+.text-line-form{
+    background-color: transparent;
+    /* color: #72ACFF; */
+    outline: none;
+    outline-style: none;
+    outline-offset: 0;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid black 1px;
+    padding: 3px 10px;
+    width: 90%;
+}
+
+.form-group{
+    padding-bottom:10px;
+}
+
+.submit-button {
+    background-color: #FB4586!important;
+    /*color: black;*/
+    border-radius: 30%;
+    border-color: transparent;
+    border-radius: 60px;
+    padding: 0px 50px;
+    font-size:medium;
+    color: white;
+    right: 50px;
+    height: 25px;
+    position: absolute;
+    font-weight: bold!important;
+}

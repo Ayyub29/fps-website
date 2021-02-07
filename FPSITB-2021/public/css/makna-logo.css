@@ -1,0 +1,92 @@
+body{
+    background-color: #FF931E;
+}
+
+#logo-fps-main{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 50%; */
+    padding-top:40px;
+    height:70%;
+    width:auto;
+}
+
+#logo-welcome{
+    margin-bottom: 100px;
+}
+
+.card{
+    margin-top:50px;;
+    margin-bottom:auto;
+    background-color: white;
+    padding-left: 65px;
+    padding-top: 55px;
+    padding-right:65px;
+    border-radius: 3%;
+}
+
+.title-card{
+    font: 'Montserrat';
+    font-size:56;
+    font-weight:700;
+    color: #541F78;
+    text-align: center;
+}
+
+.title{
+    color: #541F78;
+    font: bold 'Montserrat';
+    font-weight: 700;
+    font-size:21;
+}
+
+.makna-cont{
+    border: 2px solid black;
+}
+
+.flex-containers{
+    display:flex;
+    flex-direction: row;
+    margin-top:15px;
+    margin-bottom:15px;
+    justify-content: center;
+    width:70%;
+    margin-left: auto;
+    margin-right: auto;
+    /* padding-left:12px; */
+}
+
+.desc{
+    text-align:left;
+    margin-left:2px;
+}
+
+.logo-breakdown{
+    width:20%;
+    margin-right:8%;
+}
+
+.logo-breakdowns{
+    width:20%;
+    margin-right:2%;
+}
+
+.logo-explanation{
+    width:71%;
+    height:100%;
+    margin-top:auto;
+    margin-bottom:auto;
+}
+
+.title-category{
+    color: #541F78;
+    font: bold 'Montserrat';
+    font-weight: 700;
+    font-size:21;
+    margin-left:15%;
+}
+
+.pemisah-kecil{
+    width:5%;
+}
